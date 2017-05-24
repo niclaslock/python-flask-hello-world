@@ -1,5 +1,5 @@
 from flask import Flask
-from OpenSSL import SSL
+import SSL
 
 app = Flask(__name__)
 context = SSL.Context(SSL.SSLv23_METHOD)
