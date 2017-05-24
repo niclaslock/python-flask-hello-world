@@ -3,7 +3,7 @@ from OpenSSL import SSL
 
 app = Flask(__name__)
 context = SSL.Context(SSL.SSLv23_METHOD)
-context.use_privatekey_file('yourserver.key')
+context.use_privatekey_file('https-private-key.pem')
 context.use_certificate_file('yourserver.crt')
 
 @app.route("/")
