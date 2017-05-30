@@ -8,5 +8,5 @@ def main():
 
 if __name__ == "__main__":	
 	context = ('https-public-cert.pem', 'https-private-key.pem')
-	app.run(host='0.0.0.0', port=8080,
+	application.run(host='0.0.0.0', port=8080,
 	       debug = False, ssl_context=context)
