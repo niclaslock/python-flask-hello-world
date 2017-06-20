@@ -2,3 +2,6 @@ Flask
 Gunicorn
 Werkzeug
 pyopenssl
+scipy
+numpy
+sqlalchemy
