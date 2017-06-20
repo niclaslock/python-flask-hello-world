@@ -1,7 +1,7 @@
-Flask
-Gunicorn
-Werkzeug
-pyopenssl
+gunicorn
+flask
+flask_sqlalchemy
+sqlalchemy
+toolz
 scipy
 numpy
-sqlalchemy
